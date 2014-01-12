@@ -29,6 +29,13 @@ lein dynalint test
 
 This runs your unit tests with the linter loaded.
 
+If an `:output` keyword argument is given, the verbose warnings are dumped to
+the give file name.
+
+```
+lein dynalint test :output my-output
+```
+
 ## License
 
 Copyright © 2014 Ambrose

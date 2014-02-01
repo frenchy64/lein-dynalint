@@ -10,13 +10,13 @@ Run `lein dynalint`.
 
 Use this for user-level plugins:
 
-Put `[lein-dynalint "0.1.1"]` into the `:plugins` vector of your
+Put `[lein-dynalint "0.1.2"]` into the `:plugins` vector of your
 `:user` profile, or if you are on Leiningen 1.x do `lein plugin install
 lein-typed 0.3.1`.
 
 Use this for project-level plugins:
 
-Put `[lein-dynalint "0.1.1"]` into the `:plugins` vector of your project.clj.
+Put `[lein-dynalint "0.1.2"]` into the `:plugins` vector of your project.clj.
 
 
 ## Usage

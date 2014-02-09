@@ -1,6 +1,6 @@
 # lein-dynalint
 
-A Leiningen plugin for Dynalint.
+A Leiningen plugin for [Dynalint](https://github.com/frenchy64/dynalint).
 
 ## Quickstart
 
@@ -10,14 +10,17 @@ Run `lein dynalint`.
 
 Use this for user-level plugins:
 
-Put `[lein-dynalint "0.1.2"]` into the `:plugins` vector of your
+Put `[lein-dynalint "0.1.3"]` into the `:plugins` vector of your
 `:user` profile, or if you are on Leiningen 1.x do `lein plugin install
-lein-typed 0.3.1`.
+lein-dynalint 0.1.3`.
 
 Use this for project-level plugins:
 
-Put `[lein-dynalint "0.1.2"]` into the `:plugins` vector of your project.clj.
+Put `[lein-dynalint "0.1.3"]` into the `:plugins` vector of your project.clj.
 
+A specific version of [Dynalint](https://github.com/frenchy64/dynalint) 
+must be declared as a dependency in the respective user- or project-level
+`:plugins` vector.
 
 ## Usage
 

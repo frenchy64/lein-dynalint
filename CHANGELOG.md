@@ -1,3 +1,8 @@
+# 0.1.3
+
+- Don't declare dynalint as a dependency
+  - must be declared separately
+
 # 0.1.2
 
 - Dynalint 0.1.2

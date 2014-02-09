@@ -1,5 +1,7 @@
 # 0.1.3
 
+## BREAKING CHANGES
+
 - Don't declare dynalint as a dependency
   - must be declared separately
 

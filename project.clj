@@ -1,4 +1,4 @@
-(defproject lein-dynalint "0.1.4-SNAPSHOT"
+(defproject lein-dynalint "0.1.4"
   :description "A Leiningen plugin for Dynalint"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}

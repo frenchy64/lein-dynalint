@@ -33,7 +33,7 @@ lein dynalint test
 This runs your unit tests with the linter loaded.
 
 If an `:output` keyword argument is given, the verbose warnings are dumped to
-the give file name.
+the give file name under `target/dynalint-outout`. `:output` defaults to `output`.
 
 ```
 lein dynalint test :output my-output

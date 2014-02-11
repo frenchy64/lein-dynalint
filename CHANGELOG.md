@@ -1,3 +1,9 @@
+# 0.1.4
+
+- output dump file under 'target/dynalint-output' directory
+- :output argument defaults to 'output'
+- better error handling when dynalint dependency is missing
+
 # 0.1.3
 
 ## BREAKING CHANGES

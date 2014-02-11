@@ -1,6 +1,5 @@
 (ns lein-dynalint.core-test
-  (:use clojure.test
-        lein-dynalint.core))
+  (:use clojure.test))
 
 (deftest a-test
   (testing "FIXME, I fail."

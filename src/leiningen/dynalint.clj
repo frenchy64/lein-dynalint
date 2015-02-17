@@ -41,7 +41,7 @@
           (let [v (find-var 'dynalint.lint/warning-history)
                 fname (str "target/dynalint-output/" fname)]
             (assert v "lein-dynalint cannot load Dynalint")
-            (.mkdirs (clojure.java.io/file fname))
+            (.mkdirs (.getParentFile (clojure.java.io/file fname)))
             (when (clojure.java.io/resource fname)
               (clojure.java.io/delete-file fname))
             (doseq [e (->> @@v

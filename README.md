@@ -2,6 +2,15 @@
 
 A Leiningen plugin for [Dynalint](https://github.com/frenchy64/dynalint).
 
+WARNING: Currently `lein-dynalint` only lints calls to Clojure
+functions from within Leiningen, not from code running in your
+project.  See the [Dynalint](https://github.com/frenchy64/dynalint)
+page for how to lint your code.  See [this
+issue](https://github.com/frenchy64/lein-dynalint/issues/2) if you are
+interested in finding a way to improve `lein-dynalint` so it lints
+your code.
+
+
 ## Quickstart
 
 Run `lein dynalint`.
